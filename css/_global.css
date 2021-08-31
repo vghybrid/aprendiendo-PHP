@@ -1,0 +1,62 @@
+.title-text{
+    font: normal bold 50px/ 72px var(--montserrat);
+}
+.texto-secundario{
+    font: normal 400 14px/ 20px var(--montserrat);
+}
+.texto-mi{
+    font: normal 400 24px/ 20px var(--montserrat);
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.button{
+    padding: 12px 35px;
+    border: 3px solid transparent;
+    position: relative;
+    font: normal 500 16px/20px var(--montserrat);
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.button.proyectos-button a{
+    text-decoration: none;
+    color: black;
+}
+.button.primary-button a{
+    text-decoration: none;
+    color: black;
+}
+.button.secundary-button a{
+    text-decoration: none;
+    color: black;
+}
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black !important;
+}
+.button.primary-button::after, .button.secundary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+.button.secundary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background 6s ease;
+}
+.button.secundary-button:hover{
+    background: var(--gradient-color);
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+}
