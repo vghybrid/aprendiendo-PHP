@@ -21,40 +21,12 @@ $pg = "sobre-mi";
 </head>
 
 <body>
-    <!--Inicio del menu-->
-    <header class="area-header">
-        <div class="menu-principal">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Portfolio</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="me-auto"></div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="sobre-mi.html">Sobre mí</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="proyectos.html">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!--Fin del menu-->
+    <!--Inicio del header-->
+    <?php include_once("header.php");?>
+    <!--Fin del header-->
+
+<!--inicio sobre mí-->
     <main>
-        <!--inicio sobre mí-->
         <section class="area-sobre-mi">
             <div class="container">
                 <div class="row">
@@ -303,7 +275,8 @@ $pg = "sobre-mi";
                             <div class="col-12- col-sm-10 py-5">
                                 <h3>Desarrollador Web Full Stack</h3>
                                 <h4>DePC Suite</h4>
-                                <h5>En curso</h5>
+                                <h5>Finalizado</h5>
+                                <h5>Promedio: 7.75/10</h5>
                             </div>
                         </div>
                     </div>
@@ -313,9 +286,10 @@ $pg = "sobre-mi";
                                 <img src="./images/sin-logo.png" class="umc img-fluid" width="83.33" title="depcsuite">
                             </div>
                             <div class="col-12- col-sm-10 py-5">
-                                <h3>English Intermediate-advanced C1</h3>
+                                <h3>English Intermediate B1</h3>
                                 <h4>Oxford Institute</h4>
-                                <h5>En curso</h5>
+                                <h5>Finalizado</h5>
+                                <h5>Promedio: 7.5/10</h5>
                             </div>
                         </div>
                     </div>
@@ -356,31 +330,12 @@ $pg = "sobre-mi";
                 </div>
             </div>
         </section>
-        <!--fin sobre mí-->
     </main>
-    <!--inicio del footer-->
-    <footer class="area-footer">
-        <div class="container">
-            <div class="col-md-12 mt-5">
-                <div class="col-md-12 col-sm-3 text-center">
-                    <p class="text-uppercase p-0 par1">Estoy disponible para proyectos freelance y trabajos full-time.
-                    </p>
-                </div>
-                <div class="col-md-12 col-sm-3 text-center">
-                    <small class="pequeño">E-mail</small>
-                    <a href="mailto:anderson.sarmiento13@gmail.com" class="mail">anderson.sarmiento13@gmail.com</a>
-                </div>
-                <div class="col-md-12 col-sm-3 redes text-center">
-                    <a href="https://github.com/vghybrid" target="_blank" title="Github"><i
-                            class="fab fa-github-square"></i></a>
-                    <a href="www.linkedin.com/in/anderson-sarmiento-peña" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--fin del footer-->
+    <!--fin sobre mí-->
 
+    <!--inicio del footer-->
+    <?php include_once("footer.php");?>
+    <!--fin del footer-->
 </body>
 
 </html>

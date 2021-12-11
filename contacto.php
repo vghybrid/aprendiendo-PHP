@@ -14,8 +14,8 @@ if ($_POST) {
     $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
     // Cabeceras adicionales
-    $cabeceras .= 'To: anderson.sarmiento13@gmail.com' . "\r\n";
-    $cabeceras .= 'From: Admin <ander@sarmiento.com.ar>' . "\r\n";
+    $cabeceras .= 'To: contacto@andersonsarmiento.com.ar' . "\r\n";
+    $cabeceras .= 'From: admin <ander@sarmiento.com.ar>' . "\r\n";
 
     $para = "anderson.sarmiento13@gmail.com";
     $asunto = "Se contactaron desde tu sitio web";
@@ -49,37 +49,9 @@ if ($_POST) {
 </head>
 
 <body>
+
     <!--Inicio del menu-->
-    <header class="area-header">
-        <div class="menu-principal">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Portfolio</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="me-auto"></div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="proyectos.html">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php include_once("header.php");?>
     <!--Fin del menu-->
 
     <!--inicio contacto-->
@@ -121,26 +93,7 @@ if ($_POST) {
     <!--fin contacto-->
 
     <!--inicio del footer-->
-    <footer class="area-footer">
-        <div class="container">
-            <div class="col-md-12">
-                <div class="col-md-12 col-sm-3 text-center">
-                    <p class="text-uppercase p-0 par1">Estoy disponible para proyectos freelance y trabajos full-time.
-                    </p>
-                </div>
-                <div class="col-md-12 col-sm-3 text-center p-0">
-                    <small class="pequeño">E-mail</small>
-                    <a href="mailto:anderson.sarmiento13@gmail.com" class="mail">anderson.sarmiento13@gmail.com</a>
-                </div>
-                <div class="col-md-12 col-sm-3 redes text-center py-4">
-                    <a href="https://github.com/vghybrid" target="_blank" title="Github"><i
-                            class="fab fa-github-square"></i></a>
-                    <a href="www.linkedin.com/in/anderson-sarmiento-peña" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php");?>
     <!--fin del footer-->
 
 </body>
