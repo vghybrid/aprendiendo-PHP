@@ -73,6 +73,9 @@ html, body{
     border: 1px solid #4458dc;
     border-radius: 15px;
 }
+.area-sobre-mi p{
+    font: normal 400 16px/ 20px var(--montserrat);
+}
 #tabla-tecnologica .t-tecnologica{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 1.5rem;

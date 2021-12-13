@@ -34,7 +34,7 @@ $pg = "sobre-mi";
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <h1 class="text-title my-5">Sobre mí</h1>
-                        <p class="texto-secundario">
+                        <p>
                             Soy un desarrollador web recién iniciado en este mundo de la tecnologías. Tengo experiencia en programación. Soy competente en HTML, CSS, PHP y Laravel.
                         </p>
                         <button type="button" class="btn button secundary-button text-uppercase"><a href="./pdf/ANDERSON_SARMIENTO_CV.pdf">descargar
