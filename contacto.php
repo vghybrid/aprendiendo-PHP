@@ -3,31 +3,16 @@
 $pg = "contacto";
 
 if ($_POST) {
-    $nombre = $_REQUEST['txtNombre'];
-    $correo = $_REQUEST['txtCorreo'];
-    $telefono = $_REQUEST['txtTelefono'];
-    $mensaje = $_REQUEST['txtMensaje'];
-
-
-    // Para enviar un correo HTML, debe establecerse la cabecera Content-type
-    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-    // Cabeceras adicionales
-    $cabeceras .= 'To: contacto@andersonsarmiento.com.ar' . "\r\n";
-    $cabeceras .= 'From: admin <mail.depcsuite.com>' . "\r\n";
-
-    $para = "anderson.sarmiento13@gmail.com";
-    $asunto = "Se contactaron desde tu sitio web";
-    $mensaje = "
-    nombre = $nombre<br>
-    correo = $correo<br>
-    telefono = $telefono<br>
-    mensaje = <br>$mensaje<br>
-    ";
-
-    // Enviarlo
-    mail($para, $asunto, $mensaje, $cabeceras);
+    $ToEmail = 'contacto@andersonsarmiento.com.ar'; 
+    $EmailSubject = 'Prueba'; 
+    $mailheader = "From: ".$_POST["txtCorreo"]."\r\n"; 
+    $mailheader .= "Reply-To: ".$_POST["txtCorreo"]."\r\n"; 
+    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
+    $MESSAGE_BODY = "Nombre: ".$_POST["txtNombre"].""; 
+    $MESSAGE_BODY .= "Apellido: ".$_POST["txtApellido"].""; 
+    $MESSAGE_BODY .= "Email: ".$_POST["txtCorreo"].""; 
+    $MESSAGE_BODY .= "Mensaje: ".($_POST["txtMensaje"]).""; 
+    mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Fallo"); 
     header("Location: confirmacion-envio.php");
 }
 ?>
@@ -72,6 +57,9 @@ if ($_POST) {
                     <form action="" method="POST">
                         <div class="mb-3">
                             <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre" class="form-control shadow rounded" required="">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="txtApellido" name="txtApellido" placeholder="Apellido" class="form-control shadow rounded" required="">
                         </div>
                         <div class="mb-3">
                             <input type="text" id="txtTelefono" name="txtTelefono" placeholder="Teléfono" class="form-control shadow rounded" required="">
