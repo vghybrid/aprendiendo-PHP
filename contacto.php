@@ -4,7 +4,7 @@ $pg = "contacto";
 
 if ($_POST) {
     $ToEmail = 'contacto@andersonsarmiento.com.ar'; 
-    $EmailSubject = 'Prueba'; 
+    $EmailSubject = 'Contacto Pagina Portfolio'; 
     $mailheader = "From: ".$_POST["txtCorreo"]."\r\n"; 
     $mailheader .= "Reply-To: ".$_POST["txtCorreo"]."\r\n"; 
     $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
