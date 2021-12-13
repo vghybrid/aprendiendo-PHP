@@ -31,6 +31,8 @@ if ($_POST) {
     <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
     <!--archivo css-->
     <link rel="stylesheet" href="./css/estilos.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/favicon.ico">
 </head>
 
 <body>
