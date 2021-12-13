@@ -22,10 +22,10 @@ $pg = "sobre-mi";
 
 <body>
     <!--Inicio del header-->
-    <?php include_once("header.php");?>
+    <?php include_once("header.php"); ?>
     <!--Fin del header-->
 
-<!--inicio sobre mí-->
+    <!--inicio sobre mí-->
     <main>
         <section class="area-sobre-mi">
             <div class="container">
@@ -33,15 +33,13 @@ $pg = "sobre-mi";
                     <div class="col-lg-6 col-md-12">
                         <h1 class="text-title my-5">Sobre mí</h1>
                         <p class="texto-secundario">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ex praesentium harum impedit
-                            eveniet! Voluptatibus maxime, molestias reprehenderit hic, facilis obcaecati quas asperiores
-                            fugit dolorum quo deleniti cupiditate unde earum.
+                            Soy un desarrollador web recién iniciado en este mundo de la tecnologías. Tengo experiencia en programación. Soy competente en HTML, CSS, PHP y Laravel.
                         </p>
-                        <button type="button" class="btn button secundary-button text-uppercase"><a href="#">descargar
+                        <button type="button" class="btn button secundary-button text-uppercase"><a href="./pdf/ANDERSON_SARMIENTO_CV.pdf">descargar
                                 cv</a></button>
                     </div>
                     <div class="col-lg-6 col-md-12 imagen mt-5">
-                        <img src="./images/anderson-sarmiento.jpg" alt="" class="img-fluid">
+                        <img src="./images/anderson.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -79,8 +77,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12 mt-5">
                         <div class="t-tecnologica">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg" alt="PHP"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg" alt="PHP" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -92,8 +89,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12 mt-5">
                         <div class="t-tecnologica">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/1101/C9QJ7V3X.png" alt="Bootstrap"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/1101/C9QJ7V3X.png" alt="Bootstrap" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -105,8 +101,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12 mt-5">
                         <div class="t-tecnologica">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/1025/logo-mysql-170x170.png" alt="MySQL"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/1025/logo-mysql-170x170.png" alt="MySQL" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -118,8 +113,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12 mt-5">
                         <div class="t-tecnologica">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg" alt="Laravel"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg" alt="Laravel" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -133,8 +127,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="t-tecnologica mt-3">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/1209/javascript.jpeg" alt="Javascript"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/1209/javascript.jpeg" alt="Javascript" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -146,8 +139,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="t-tecnologica mt-3">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/1020/OYIaJ1KK.png" alt="React.js"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/1020/OYIaJ1KK.png" alt="React.js" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -171,8 +163,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="t-tecnologica mt-3">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://mycroft.ai/wp-content/uploads/2017/06/the-right-license.png"
-                                    alt="Apache" width="50" height="50">
+                                <img src="https://mycroft.ai/wp-content/uploads/2017/06/the-right-license.png" alt="Apache" width="50" height="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -184,8 +175,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="t-tecnologica mt-3">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg" alt="jQuery"
-                                    width="50">
+                                <img src="https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg" alt="jQuery" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -197,8 +187,7 @@ $pg = "sobre-mi";
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="t-tecnologica mt-3">
                             <div class="tecnologia-imagen text-center">
-                                <img src="https://img.stackshare.io/service/12698/gUjuxmmd_400x400.jpg"
-                                    alt="Mercadopago" width="50">
+                                <img src="https://img.stackshare.io/service/12698/gUjuxmmd_400x400.jpg" alt="Mercadopago" width="50">
                             </div>
                             <div class="card-body text-center">
                                 <p class="card-text texto-secundario">
@@ -308,7 +297,7 @@ $pg = "sobre-mi";
                                 <h2 class="text-uppercase">idiomas</h2>
                                 <ul>
                                     <li>ESPAÑOL - Nativo</li>
-                                    <li>INGLÉS - Intermediate-advanced C1</li>
+                                    <li>INGLÉS - Intermediate B1</li>
                                 </ul>
                             </div>
                         </div>
@@ -334,7 +323,7 @@ $pg = "sobre-mi";
     <!--fin sobre mí-->
 
     <!--inicio del footer-->
-    <?php include_once("footer.php");?>
+    <?php include_once("footer.php"); ?>
     <!--fin del footer-->
 </body>
 

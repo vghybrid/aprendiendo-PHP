@@ -67,10 +67,10 @@ html, body{
 /* inicio sobre mí */
 
 .area-sobre-mi .imagen img{
-    width: 40%;
+    width: 70%;
     height: auto;
-    margin-left: 30%;
-    border: 1px solid #4458dc;
+    margin-left: 17%;
+    border: 1px solid black;
     border-radius: 15px;
 }
 #tabla-tecnologica .t-tecnologica{

@@ -38,9 +38,9 @@ $pg = "inicio";
                         <div class="botones">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button me-4 text-uppercase"><a
-                                    href="sobre-mi.html">sobre mí</a></button>
+                                    href="sobre-mi.php">sobre mí</a></button>
                                 <button type="button" class="btn button secundary-button text-uppercase"><a
-                                    href="contacto.html">Contactame</a></button>
+                                    href="contacto.php">Contactame</a></button>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 <?php
 
-$pg = "contact";
+$pg = "contacto";
 
 if ($_POST) {
     $nombre = $_REQUEST['txtNombre'];
@@ -83,7 +83,7 @@ if ($_POST) {
                             <textarea name="txtMensaje" id="txtMensaje" placeholder="Escriba su mensaje aqui" class="form-control shadow rounded" required=""></textarea>
                         </div>
                         <div>
-                            <button id="btnEnviar" name="btnEnviar" class="btn button secundary-button text-uppercase mt-0 mb-5">enviar</button>
+                            <button type="submit" id="btnEnviar" name="btnEnviar" class="btn button secundary-button text-uppercase mt-0 mb-5">enviar</button>
                         </div>
                     </form>
                 </div>
