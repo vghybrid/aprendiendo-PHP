@@ -15,7 +15,7 @@ if ($_POST) {
 
     // Cabeceras adicionales
     $cabeceras .= 'To: contacto@andersonsarmiento.com.ar' . "\r\n";
-    $cabeceras .= 'From: admin <ander@sarmiento.com.ar>' . "\r\n";
+    $cabeceras .= 'From: admin <mail.depcsuite.com>' . "\r\n";
 
     $para = "anderson.sarmiento13@gmail.com";
     $asunto = "Se contactaron desde tu sitio web";
@@ -27,8 +27,8 @@ if ($_POST) {
     ";
 
     // Enviarlo
-    //mail($para, $asunto, $mensaje, $cabeceras);
-    header("Location: confimacion-envio-en.php");
+    mail($para, $asunto, $mensaje, $cabeceras);
+    header("Location: confirmacion-envio.php");
 }
 ?>
 
