@@ -119,7 +119,7 @@ $pg = "proyectos";
                         </div>
                         <div class="row">
                             <div class="col-6 py-4">
-                                <a href="./burger/" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                                <a href="./burger/resources/views/web/home.blade.php" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
                                     online</a>
                             </div>
                             <div class="col-6 py-4">
