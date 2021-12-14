@@ -55,9 +55,37 @@ $pg = "proyectos";
                 </div>
                 <div class="row rounded shadow">
                     <div class="col-md-4">
-                        <img src="./images/abmclientes.png" class="img-fluid imagen"></div>
+                        <img src="./images/abmclientes.png" class="img-fluid imagen">
+                    </div>
                     <div class="col-md-4 offset-md-4 align-self-end">
                         <a href="./abmventas/" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                            online</a>
+                    </div>
+                </div>
+        </section>
+        <section id="abm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-5">
+                        <h2 class="texto-mi">
+                            <i class="fas fa-pager"></i> Sistema gestión de ventas
+                        </h2>
+                    </div>
+                </div>
+                <div class="row rounded shadow">
+                    <div class="col-md-4">
+                        <img src="./images/abmventas.png" class="img-fluid imagen">
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <p class="texto-secundario text-justify">
+                            Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC,
+                            Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="./sistema/" class="btn button primary-button text-uppercase mt-3 ms-5" target="_blank">Ver
+                            online</a>
+                        <a href="./sistema/" class="btn button primary-button text-uppercase mt-5 ms-5" target="_blank">Ver
                             online</a>
                     </div>
                 </div>

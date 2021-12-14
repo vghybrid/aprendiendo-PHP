@@ -18,12 +18,14 @@ $pg = "proyectos";
     <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
     <!--archivo css-->
     <link rel="stylesheet" href="./css/estilos.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/favicon.ico">
 </head>
 
 <body>
 
     <!--Inicio del header-->
-    <?php include_once("header.php");?>
+    <?php include_once("header.php"); ?>
     <!--Fin del header-->
 
     <!--inicio proyectos-->
@@ -60,11 +62,11 @@ $pg = "proyectos";
                         </div>
                         <div class="row">
                             <div class="col-6 py-4">
-                                <a href="#" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                                <a href="./abmventas/" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
                                     online</a>
                             </div>
                             <div class="col-6 py-4">
-                                <a href="#" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
+                                <a href="https://github.com/vghybrid/abm_clientes" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
                                     fuente</a>
                             </div>
                         </div>
@@ -88,11 +90,11 @@ $pg = "proyectos";
                         </div>
                         <div class="row">
                             <div class="col-6 py-4">
-                                <a href="#" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                                <a href="./sistema/" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
                                     online</a>
                             </div>
                             <div class="col-6 py-4">
-                                <a href="#" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
+                                <a href="https://github.com/vghybrid/sistema_ventas" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
                                     fuente</a>
                             </div>
                         </div>
@@ -117,11 +119,11 @@ $pg = "proyectos";
                         </div>
                         <div class="row">
                             <div class="col-6 py-4">
-                                <a href="#" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                                <a href="./burger/" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
                                     online</a>
                             </div>
                             <div class="col-6 py-4">
-                                <a href="#" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
+                                <a href="https://github.com/depcsuite/burger062021" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
                                     fuente</a>
                             </div>
                         </div>
@@ -131,9 +133,9 @@ $pg = "proyectos";
         </div>
     </main>
     <!--fin proyectos-->
-    
+
     <!--inicio del footer-->
-    <?php include_once("footer.php");?>
+    <?php include_once("footer.php"); ?>
     <!--fin del footer-->
 
 </body>
