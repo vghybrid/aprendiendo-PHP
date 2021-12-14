@@ -52,6 +52,7 @@ if($_POST){
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
   <link href="css/estilos.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js"></script>
+  <link rel="shortcut icon" href="./images/favicon.ico">
 
 </head>
 
