@@ -11,7 +11,7 @@
     text-transform: uppercase;
 }
 .button{
-    padding: 12px 35px;
+    padding: 10px 25px;
     border: 3px solid transparent;
     position: relative;
     font: normal 500 16px/20px var(--montserrat);

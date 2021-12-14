@@ -147,20 +147,17 @@ html, body{
 /* fin sobre mí */
 
 /* fin proyecto */
-#proyectos h3{
+#proyecto h3{
     font-size: 15px;
 }
-#proyectos img{
-    height: 13rem;
-}
-#proyectos .card p{
-    height: 90px;
-}
-#proyectos .coso{
-    background-color: var(--primary-color2);
-    color: var(--title-color);
+#abm .imagen img{
+    height: 12rem;
+    
 }
 
+#abm .imagen{
+    border: 1px solid rgba(39,41,43,0.1);
+}
 /* fin proyecto */
 
 /* inicio contacto */

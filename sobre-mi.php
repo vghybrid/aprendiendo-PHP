@@ -213,8 +213,7 @@ $pg = "sobre-mi";
                 <div class="row rounded shadow">
                     <div class="col-12 text-center">
                         <h4 class="title-text text-uppercase">
-                            sin experiencias laborales
-                            </h3>
+                            <h3>Sin experiencias laborales</h3>
                     </div>
                 </div>
             </div>
@@ -231,10 +230,10 @@ $pg = "sobre-mi";
                 <div class="row shadow rounded">
                     <div class="col-lg-6 col-sm-12">
                         <div class="row">
-                            <div class="col-2 py-4">
+                            <div class="col-2 py-4 imagen">
                                 <img src="./images/Logo_UMC.jpg" class="umc img-fluid" width="83.33" title="depcsuite">
                             </div>
-                            <div class="col-12- col-sm-10 py-4">
+                            <div class="col-12 col-sm-10 py-4">
                                 <h3>Ingeniería Informática</h3>
                                 <h4>Universidad Maritima del Caribe</h4>
                                 <h5>ene 2016 - ene 2019</h5>
