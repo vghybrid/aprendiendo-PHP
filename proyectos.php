@@ -107,7 +107,7 @@ $pg = "proyectos";
                         </div>
                         <div class="col-12 py-3 coso">
                             <h3 class="text-uppercase">
-                                proyecto integrador
+                                proyecto integrador (Sitio E-commerce)
                             </h3>
                         </div>
                         <div class="col-12 py-3">
@@ -115,6 +115,35 @@ $pg = "proyectos";
                                 Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS,
                                 Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y
                                 funcionalidades a fines
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 py-4">
+                                <a href="./burger/resources/views/web/home.blade.php" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                                    online</a>
+                            </div>
+                            <div class="col-6 py-4">
+                                <a href="https://github.com/depcsuite/burger062021" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
+                                    fuente</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
+                    <div class="row card">
+                        <div class="col-12 bg-white p-0">
+                            <img src="./images/calculadora.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-12 py-3 coso">
+                            <h3 class="text-uppercase">
+                                calculadora iva
+                            </h3>
+                        </div>
+                        <div class="col-12 py-3">
+                            <p class="texto-secundario">
+                                Calculadora de IVA desarrollada con PHP, HTML y Bootstrap.
                             </p>
                         </div>
                         <div class="row">
