@@ -13,9 +13,10 @@ html, body{
 }
 
 /* inicio header */
-
-.area-header .menu-principal .navbar{
-    padding: 10px 160px;
+@media (min-width: 600px) {
+    .area-header .menu-principal .navbar{
+        padding: 10px 160px;
+    }
 }
 .area-header .menu-principal .nav-item .nav-link{
     font: normal 500 15px/2px var(--montserrat);
