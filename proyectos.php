@@ -148,11 +148,11 @@ $pg = "proyectos";
                         </div>
                         <div class="row">
                             <div class="col-6 py-4">
-                                <a href="./burger/resources/views/web/home.blade.php" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
+                                <a href="./calculadora-iva/calcular_iva_ejer.php" class="btn button primary-button text-uppercase mt-0" target="_blank">Ver
                                     online</a>
                             </div>
                             <div class="col-6 py-4">
-                                <a href="https://github.com/depcsuite/burger062021" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
+                                <a href="https://github.com/vghybrid/calculadora-iva" class="btn button secundary-button text-uppercase mt-0" target="_blank">Codigo
                                     fuente</a>
                             </div>
                         </div>
